@@ -8,7 +8,7 @@ async function bootstrap() {
   app.enableCors({
     origin: '*', // Permitir solicitudes desde cualquier origen
   });
-  
-  await app.listen(3070);
+
+  await app.listen(3000);
 }
 bootstrap();
